@@ -36,12 +36,6 @@ class DistrictRepository {
     return this.data[findSchool]
   }
 
-
-
-
-
-
-
   findAllMatches(inquiry = '') {
     const upInquiry = inquiry.toUpperCase()
 
@@ -66,14 +60,6 @@ class DistrictRepository {
     }, [])
     return searchResults
   }
-
-
-
-
-
-
-
-
 
   findAverage(search) {
     const searchResult = this.findByName(search)
