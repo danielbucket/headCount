@@ -7,7 +7,9 @@ const schoolData = new DistrictRepository(highSchoolGradData)
 
 // const testLog = schoolData.findByName('Academy 20')
 // const testLog = schoolData.findByName('Colorado')
-const testLog = schoolData.findAllMatches('colorado')
+// const testLog = schoolData.findAllMatches('colorado')
+// const testLog = schoolData.findAverage('yuma school district 1')
+const testLog = schoolData.compareDistrictAverages('academy 20', 'yuma school district 1')
 
 console.log('testLog :', testLog)
 
