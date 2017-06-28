@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import DistrictRepository from './helper';
+import DistrictRepository from './DistrictRepository';
 import highSchoolGradData from '../data/high_school_graduation_rates'
 
 const schoolData = new DistrictRepository(highSchoolGradData)
 
-const testLog = schoolData.findByName('Academy 20')
+// const testLog = schoolData.findByName('Academy 20')
 // const testLog = schoolData.findByName('Colorado')
+const testLog = schoolData.findAllMatches('colorado')
 
-console.log(testLog)
+console.log('testLog :', testLog)
 
 class App extends Component {
   constructor() {

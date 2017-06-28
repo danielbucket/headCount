@@ -1,8 +1,9 @@
-import DistrictRepository from '../../src/helper.js';
-import kinderData from '../../data/kindergartners_in_full_day_program.js';
+import DistrictRepository from '../../src/DistrictRepository.js';
+// import kinderData from '../../data/kindergartners_in_full_day_program.js';
+import highSchoolGradData from '../../data/high_school_graduation_rates';
 
 describe('DistrictRepository iteration 1 - part 1', () =>  {
-  const district = new DistrictRepository(kinderData);
+  const district = new DistrictRepository(highSchoolGradData);
 
   test('01: findByName returns undefined if no arguments are provided', () => {
     expect(district.findByName()).toBe(undefined);
