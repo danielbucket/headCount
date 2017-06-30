@@ -1,0 +1,29 @@
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 350px;
+  border: 1px solid red;
+}
+
+.dist-location {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+.dist-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dist-year {
+  margin-left: 15px;
+}
+
+.dist-data {
+  margin-right: 15px;
+}

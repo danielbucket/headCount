@@ -1,1 +1,9 @@
-/*APP COMPONENT RELATED CSS GOES HERE*/
+.body {
+
+}
+
+.card-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
